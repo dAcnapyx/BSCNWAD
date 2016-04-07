@@ -44,7 +44,7 @@ License
 
 Licensed under the MIT license. See [LICENSE][] for more details.
 
-[nodejs]: https://nodejs.org/en/
-[mysql]: https://www.mysql.com/
+[nodejs]: https://nodejs.org/en/ "Node.JS"
+[mysql]: https://www.mysql.com/ "MySQL"
 [documentation]: https://github.com/dAcnapyx/BSCNWAD/blob/master/docs/Documentation.md "BSCNWAD Documentation"
 [LICENSE]: https://github.com/dAcnapyx/BSCNWAD/blob/master/LICENSE "LICENSE"
