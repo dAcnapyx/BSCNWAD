@@ -1,0 +1,51 @@
+[
+	{
+		"txt": "add",
+		"chr": "a",
+		"act": "addHTMLorSS( event )",
+		"ttl": "Add HTML Tag or Smarty Statement",
+		"sub": []
+	},
+	{
+		"txt": "edit",
+		"chr": "e",
+		"act": "editHTMLorSS( event )",
+		"ttl": "Edit Existing HTML Tag or Smarty Statement",
+		"sub": []
+	},
+	{
+		"txt": "del",
+		"chr": "d",
+		"act": "delHTMLorSS( event )",
+		"ttl": "Delete Permanently HTML Tag or Smarty Statement",
+		"sub": []
+	},
+	{
+		"txt": "fetch Vars",
+		"chr": "f",
+		"act": "fetchVarsFromDB()",
+		"ttl": "Fetch Smarty Varibales from db",
+		"sub": []
+	},
+	{
+		"txt": "preview",
+		"chr": "p",
+		"act": "previewProject()",
+		"ttl": "Preview Current Route in different screen resolutions",
+		"sub": []
+	},
+	{
+		"txt": "save",
+		"chr": "s",
+		"act": "saveTemplate()",
+		"ttl": "Save Template",
+		"sub": []
+	},
+	{
+		"txt": "back",
+		"chr": "b",
+		"act": "backToTemplates()",
+		"ttl": "Back to Templates",
+		"sub": []
+	}
+]

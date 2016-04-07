@@ -1,0 +1,7 @@
+Limitations : 
+
+- Can't use space when naming project, route or template
+
+- Can't add tables or make them dinamicly rendered ( with smarty foreach ) because of the way the browser renders tables and the waу that is used to make the html and smarty tags editable
+
+- Can't use custom attributes ( like data-something ) in html tags because of the html parsing problems

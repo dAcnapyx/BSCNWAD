@@ -1,0 +1,9 @@
+[
+	{
+		"txt": "back",
+		"chr": "b",
+		"act": "backToTemplateEdit()",
+		"ttl": "Back to Template Edit",
+		"sub": []
+	}
+]

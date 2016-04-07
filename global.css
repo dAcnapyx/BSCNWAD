@@ -1,0 +1,358 @@
+.my_breadcrumbs {
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+
+.my_breadcrumb {
+	text-decoration: underline;
+}
+
+.scr_res_con {
+	width: 450px;
+}
+
+.scr_res_txt {
+	float: left;
+    margin-top: 8px;
+    font-size: 15px;
+    color: white;
+}
+
+.scr_res_sel {
+	float: left;
+    width: 255px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+li {
+	display: block;
+	float: left;
+	padding: 10px;
+}
+
+.ci { /* ci = Clickable Item */
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.ci:hover {
+	color: lightgreen;
+	background-color: #222 !important;
+	cursor: pointer;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+/* mil = Menu Item Link */
+.mil {
+	color: white !important;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.mil:hover {
+	color: green !important;
+	background-color: #222 !important;
+	cursor: pointer;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.mil:hover > .chsh {
+	color: white !important;
+}
+
+#dragObjShadow {
+	border: 1px solid black;
+}
+
+/* dropdown sub menu stiling */
+ul.dropdown-menu {
+	background-color: #222;
+	border-color: green;
+}
+
+ul.dropdown-menu>li>a {
+	background-color: inherit;
+}
+
+.main > h3 {
+	font-weight: bold;
+}
+
+.blackShadowTxt {
+	color: white;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* for highlighted char which is for shift+char keyboard shortcut usage */
+.chsh {
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: green;
+	font-weight: bold;
+}
+
+#dContent_con {
+	max-width: 98.4% !important;
+	margin: 0 auto;
+}
+
+#dContent {
+	clear: both;
+    height: 80vh;
+    width: 99.4%;
+}
+
+.dccw {
+	border: 1px solid black;
+    box-shadow: 2px 2px 20px 1px black;
+    margin: 90px auto;
+    overflow: auto;
+    background-color: white !important;
+}
+
+#dIframe {
+	margin: 0 auto;
+	margin-bottom: 30px;
+    display: block;
+    width: 880px;
+    height: 600px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 20px 1px black;
+}
+
+.panel {
+	background: inherit;
+    color: black;
+    text-shadow: 2px 2px white;
+    font-weight: bold;
+}
+
+/* menu form */
+#dField {
+	margin-top: 8px;
+}
+
+.dAField {
+	width: 100%;
+	min-width: 100%;
+	resize: horizontal;
+	overflow-y: hidden;
+	margin: 10px 0px 0px;
+	border: 0px solid;
+	background: transparent;
+	color: white;
+	height: 35px;
+	padding: 5px 5px 0px 5px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.input_ta {
+	height: 25px;
+	margin: 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.tc-gy { /* tc-gy = Text Color - Green Yellow*/
+	color: greenyellow;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.tc-lg { /* tc-lg = Text Color - Light Green */
+	color: lightgreen;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.floating_btn {
+	box-shadow: 3px 3px 15px 0px black;
+    text-shadow: 1px 1px black;
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 9px;
+}
+
+.floating_btn:hover {
+	box-shadow: 1px 1px 5px 0px black;
+	text-shadow: 2px 2px black;
+}
+
+.btn_ana {
+	padding: 0px 5px;
+}
+
+#dSuggests {
+	position: absolute;
+	border: 1px solid #000;
+	z-index: 777;
+	background: #FFF;
+	width: 190px;
+	max-height: 150px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.suggestItem {
+	cursor: pointer;
+	padding: 0px 7px;
+	width: 100%;
+	display: block;
+}
+
+.suggestItemActive {
+	color: white;
+	background-color: #333;
+}
+
+.suggestItem:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.suggestItemActive:hover {
+	color: white;
+	text-decoration: none;
+}
+
+#dInfo {
+	font-size: 20px; 
+	margin-top: 15px;
+	color: white;
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+
+/* if bootsrap css is not loaded duplicate their hide class */
+.hide {
+	display: none;
+}
+
+/* header margin : set to not overlap with the main content */
+.hm {
+	margin-bottom: 100px
+}
+
+/* the menu margin */
+.dmm {
+	margin-left : 10px;
+	margin-right : 10px; 
+}
+
+.btn-black {
+	border-radius: 0px;
+}
+
+.btn-file {
+	position: relative;
+	overflow: hidden;
+}
+.btn-file input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	min-width: 100%;
+	min-height: 100%;
+	font-size: 100px;
+	text-align: right;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	outline: none;
+	background: white;
+	cursor: inherit;
+	display: block;
+}
+
+.hard_shadow {
+	-webkit-box-shadow: inset 0px 0px 14px 4px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 14px 4px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 14px 4px rgba(0,0,0,0.75);
+	border: dotted 2px lime;
+}
+
+.sc_bordered {
+	border: dotted 2px black;
+	padding: 4px;
+	margin: 4px;
+	float: left;
+}
+
+.sc_bordered_full {
+	width: 99%;
+	border: dotted 2px black;
+	padding: 4px;
+	margin: 4px;
+	clear: both;
+	float: left;
+}
+
+.blueprint-grid { /* small squares 10px big squares 100px */
+	background: #58a !important;
+	background-image: linear-gradient(#444 1px, transparent 0),
+					  linear-gradient(90deg, #444 1px, transparent 0),
+					  linear-gradient(hsla(0,0%,0%,.2) 1px, transparent 0),
+					  linear-gradient(90deg, hsla(0,0%,0%,.3) 1px, transparent 0) !important;
+	background-size: 100px 100px, 100px 100px,
+					 10px 10px, 10px 10px !important;
+	color: white;
+}
+
+.blueprint-grid-gray { 
+	background: rgba(34, 34, 34, 0.3) !important;
+	background-image: linear-gradient(#444 1px, transparent 0),
+					  linear-gradient(90deg, #444 1px, transparent 0),
+					  linear-gradient(hsla(0,0%,0%,.2) 1px, transparent 0),
+					  linear-gradient(90deg, hsla(0,0%,0%,.3) 1px, transparent 0) !important;
+	background-size: 100px 100px, 100px 100px,
+					 10px 10px, 10px 10px !important;
+}
+
+code {
+	background-color: white;
+	color: black;
+	font-family: Courier !important;
+	font-size: 100%;
+}
+
+#dInfo > code {
+	background-color: inherit;
+	color: inherit;
+}
+
+.nsmarty_code {
+	font-weight: bold;
+	clear: both;
+	float: left;
+	padding: 10px;
+}
+
+.pf { /* pf = Position Fixed */
+	position: fixed;
+}
+
+#tplContentCleaner {
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+}
+
+.ajax-file-upload-filename {
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+}
+
+.popover-content{
+    color: #000000 !important;
+}

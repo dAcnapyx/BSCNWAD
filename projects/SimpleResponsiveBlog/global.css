@@ -1,0 +1,71 @@
+body {
+	font-family: Ubuntu;
+}
+
+.post_date {
+	color: #868686;
+	font-style: italic;
+	font-size: 2vh;
+}
+
+.post_title {
+	font-family: Oswald;
+	font-size: 3vh;
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.post_resume {
+	font-size: 2.5vh;
+	padding-top: 1vh;
+}
+
+.post_btn_rm {
+	color: #337AC0;
+	font-size: 2vh;
+	margin-top: 2vh;
+	margin-bottom: 3vh;
+}
+
+.footer {
+	font-size: 1.5vh;
+	background-color: white;
+	padding: 10px;
+}
+
+.date_in_post {
+	text-decoration: none;
+	cursor: auto;
+}
+
+.title_in_post {
+	text-decoration: none;
+	cursor: auto;
+}
+
+.resume_in_post {
+	padding: 1%;
+	color: #868686;
+	font-style: italic;
+	font-size: 2vh;
+}
+
+.post_title_in_archive {
+	font-size: 2vh;
+	padding-left: 15px;
+}
+
+.about_author {
+	font-size: 4vh;
+	font-weight: bold;
+}
+
+.about_title {
+	font-size: 4vh;
+	font-style: italic;
+}
+
+.about_mail {
+	font-size: 3vh;
+}

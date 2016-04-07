@@ -1,0 +1,1 @@
+<iframe src="http://localhost:{$port|default:8080}/{if $cur_route|default:'' ne 'home'}{$cur_route}/{/if}" id="dIframe"></iframe>

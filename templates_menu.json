@@ -1,0 +1,37 @@
+[
+	{
+		"txt": "add",
+		"chr": "a",
+		"act": "addTemplate()",
+		"ttl": "Add New Template",
+		"sub": []
+	},
+	{
+		"txt": "edit",
+		"chr": "e",
+		"act": "editTemplate()",
+		"ttl": "Edit Existing Template",
+		"sub": []
+	},
+	{
+		"txt": "del",
+		"chr": "d",
+		"act": "delTemplate()",
+		"ttl": "Delete Permanently a Template",
+		"sub": []
+	},
+	{
+		"txt": "import",
+		"chr": "i",
+		"act": "importTemplate()",
+		"ttl": "Import Template From Another Project",
+		"sub": []
+	},
+	{
+		"txt": "back",
+		"chr": "b",
+		"act": "backToRoutes()",
+		"ttl": "Back to Routes",
+		"sub": []
+	}
+]

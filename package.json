@@ -1,0 +1,48 @@
+{
+  "name": "bscnwad",
+  "version": "1.0.0",
+  "description": "Bootstrap 3 Smarty Chrome Browser Based Node.JS Web App Designer",
+  "main": "dApp.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "express": "^4.13.3",
+    "formidable": "^1.0.17",
+    "htmlparser2": "^3.9.0",
+    "jquery": "^2.1.4",
+    "jquery-file-upload": "^4.0.5",
+    "lazy": "^1.0.11",
+    "mysql": "^2.9.0",
+    "ncp": "^2.0.0",
+    "nsmarty": "^0.0.1",
+    "sleep": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dAcnapyx/BSCNWAD.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "3",
+    "Smarty",
+    "Node.JS",
+    "Web",
+    "App",
+    "Application",
+    "Design",
+    "Designer",
+    "BSCNWAD"
+  ],
+  "author": "Asparuh Kostadinov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dAcnapyx/BSCNWAD/issues"
+  },
+  "homepage": "https://github.com/dAcnapyx/BSCNWAD#readme"
+}

@@ -1,0 +1,30 @@
+[
+	{
+		"txt": "add",
+		"chr": "a",
+		"act": "addRoute()",
+		"ttl": "Add New Route",
+		"sub": []
+	},
+	{
+		"txt": "edit",
+		"chr": "e",
+		"act": "editRoute()",
+		"ttl": "Edit Existing Route",
+		"sub": []
+	},
+	{
+		"txt": "del",
+		"chr": "d",
+		"act": "delRoute()",
+		"ttl": "Delete Permanently a Route",
+		"sub": []
+	},
+	{
+		"txt": "back",
+		"chr": "b",
+		"act": "backToProjects()",
+		"ttl": "Back to Projects",
+		"sub": []
+	}
+]

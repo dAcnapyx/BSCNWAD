@@ -1,0 +1,31 @@
+{
+  "name": "simpleresponsiveblog",
+  "version": "1.0.0",
+  "description": "Example project for BSCNWAD",
+  "main": "app.js",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "express": "^4.13.3",
+    "formidable": "^1.0.17",
+    "jquery": "^2.1.4",
+    "mysql": "^2.9.0",
+    "nsmarty": "^0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dAcnapyx/BSCNWAD.git"
+  },
+  "keywords": [
+    "BSCNWAD"
+  ],
+  "author": "Asparuh Kostadinov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dAcnapyx/BSCNWAD/issues"
+  },
+  "homepage": "https://github.com/dAcnapyx/BSCNWAD#readme"
+}
