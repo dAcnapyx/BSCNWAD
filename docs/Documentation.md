@@ -52,10 +52,10 @@ Introduction
 
 BSCNWAD is a browser based Node.JS app which goal is to speed up the process of designing responsive web applications providing visual environment, intelligent auto-completion system, build in preview and automated initial code writing. The application is build with modularity in mind. It has currently 5 modules which are Projects, Routes, Templates, Template Edit and Project Preview which are managed by dApp.js correlated with dCore.js. Each module has 4 files starting with module name and finishing with strict suffix (except for the template file which is just the module name). For example the module routes is represented in these 4 files
 
-	* **routes_menu.json** - for the menu items and their functionality
-	* **routes_n.js** - Node.js (server side)
-	* **routes_b.js** - Browser (front end)
-	* **routes.tpl** - Smarty template that will show module data
+	* routes_menu.json - for the menu items and their functionality
+	* routes_n.js - Node.js (server side)
+	* routes_b.js - Browser (front end)
+	* routes.tpl - Smarty template that will show module data
 
 ### routes_menu.json ( moduleName_menu.json )
 
@@ -73,11 +73,11 @@ BSCNWAD is a browser based Node.JS app which goal is to speed up the process of 
 
 The structure of menu json file is simple:
 	
-	* **txt** - The displayed menu item text
-	* **chr** - This is the char that is used for shortcut combination with shift and will trigger the menu item action (e.g. shift+a will call addRoute function)
-	* **act** - The function that will be called when activated ( the function must be in module browser js file in this case routes_b.js. Leave empty if this will be dropdown menu )
-	* **ttl** - The displayed title when hovered with the mouse
-	* **sub** - array of dropdown menu items ( same structure as main menu item leaving sub empty. only one level of deepness implemented )
+	* txt - The displayed menu item text
+	* chr - This is the char that is used for shortcut combination with shift and will trigger the menu item action (e.g. shift+a will call addRoute function)
+	* act - The function that will be called when activated ( the function must be in module browser js file in this case routes_b.js. Leave empty if this will be dropdown menu )
+	* ttl - The displayed title when hovered with the mouse
+	* sub - array of dropdown menu items ( same structure as main menu item leaving sub empty. only one level of deepness implemented )
 
 ### routes_n.js
 
@@ -116,30 +116,30 @@ or/and edit the app with BSCNWAD
 
 Keyboard Shortcuts:
 
-	* **shift + a** - Add Project
-	* **shift + e** - Edit Project
-	* **shift + d** - Delete Project
+	* shift + a - Add Project
+	* shift + e - Edit Project
+	* shift + d - Delete Project
 
 ### Add
 
 All you need to enter to add new project is it's port ( if left empty will set it to default port 8080 ) and name. The system will create new folder with that name in app projects/ folder in which are created initial app files:
 
-	* **app.js** - manage application redirecting to differnt pages ( see details below )
-	* **global.css** - for storring global application styles
-	* **index.js** - home page back end handler
-	* **index.tpl** - home page template 
-	* **master.tpl** - master app template ( the one that can be edite trough the BSCNWAD )
-	* **__master.tpl** - the real master template ( which is not visible in BSCNWAD, because of parsing problems )
+	* app.js - manage application redirecting to differnt pages ( see details below )
+	* global.css - for storring global application styles
+	* index.js - home page back end handler
+	* index.tpl - home page template 
+	* master.tpl - master app template ( the one that can be edite trough the BSCNWAD )
+	* __master.tpl - the real master template ( which is not visible in BSCNWAD, because of parsing problems )
 
 and default node_modules:
 
-	* **bootstrap** - for the responsivnest of the app
-	* **db** - This is the only module that is made by me which includes dMysql.js module file for creating automated MySQL queries.
-	* **express** - for the back end framework of the app
-	* **formidable** - for easy handling of forms
-	* **jquery** - needed by bootstrap and for the front end functionality
-	* **mysql** - for database of the app 
-	* **nsmarty** - the best imho Node.JS port of smarty template engine
+	* bootstrap - for the responsivnest of the app
+	* db - This is the only module that is made by me which includes dMysql.js module file for creating automated MySQL queries.
+	* express - for the back end framework of the app
+	* formidable - for easy handling of forms
+	* jquery - needed by bootstrap and for the front end functionality
+	* mysql - for database of the app 
+	* nsmarty - the best imho Node.JS port of smarty template engine
 
 ### Edit
 
@@ -162,10 +162,10 @@ This module manage adding/deleting routes in selected project and is a gate to a
 
 Keyboard Shortcuts:
 
-	* **shift + a** - Add Route
-	* **shift + e** - Edit Route
-	* **shift + d** - Delete Route
-	* **shift + b** - Goes Back to Projects
+	* shift + a - Add Route
+	* shift + e - Edit Route
+	* shift + d - Delete Route
+	* shift + b - Goes Back to Projects
 
 ### Add
 
@@ -200,11 +200,11 @@ NOTE: in home route you can see/edit all templates from all routes as shown on p
 
 Keyboard Shortcuts:
 
-	* **shift + a** - Add Template
-	* **shift + e** - Edit Template
-	* **shift + d** - Delete Template
-	* **shift + i** - Import Template
-	* **shift + b** - Goes Back to Routes
+	* shift + a - Add Template
+	* shift + e - Edit Template
+	* shift + d - Delete Template
+	* shift + i - Import Template
+	* shift + b - Goes Back to Routes
 
 ### Add
 
@@ -261,45 +261,45 @@ Keyboard Shortcuts:
 	
 	menu shortcuts:
 
-	* **shift + a** - Add html tag or smarty statement
-	* **shift + e** - Edit html tag or smarty statement
-	* **shift + d** - Delete html tag block or smarty statement block
-	* **shift + f** - Fetch Vars from db ( mysql )
-	* **shift + p** - Preview current route
-	* **shift + s** - Save template
-	* **shift + b** - Goes Back to current project -> route -> templates
+	* shift + a - Add html tag or smarty statement
+	* shift + e - Edit html tag or smarty statement
+	* shift + d - Delete html tag block or smarty statement block
+	* shift + f - Fetch Vars from db ( mysql )
+	* shift + p - Preview current route
+	* shift + s - Save template
+	* shift + b - Goes Back to current project -> route -> templates
 
 	in container selection ( either on add, edit or delete action ) :
 
-	* **c** - copy selected container ( html tag or smarty statement container ) to buffer
-	* **x** - copy selected container to buffer with flag to move it instead of just copy it when pasted
-	* **v** - append ( paste ) buffer to selected container
-	* **shift + v** - paste buffer before selected container
-	* **tab** - toggle from normal view of containers to another view mode where ( in most of the cases ) you can see clearly the arrangement of the containers in the template
-	* **up arrow or w** - selection goes one level up in html dom ( from currently selected container stand point )
-	* **down arrow or s** - if currently selected container has childrens ( which are also editable ) goes one level down selecting the first child, otherwise does nothing
-	* **left arrow or a** - if it is not the first child of currently selected container parent selects previous selectable child container, otherwise does nothing
-	* **right arrow or d** - if it is not the last child of currently selected container parent selects next selectable child container, otherwise does nothing
-	* **enter or left button mouse click** - confirms selection of container for the current operation ( when shift key is pressed at the same time and the action is add, it will put the new element before the selected container )
-	* **middle mouse click** - toggle enable/disable of mouse container selection ( useful when you want to select the container with the keyboard and don't want to incidently select other container, since mouse selection works on mouse hover )
-	* **esc** - cancel current operation removing all changes
+	* c - copy selected container ( html tag or smarty statement container ) to buffer
+	* x - copy selected container to buffer with flag to move it instead of just copy it when pasted
+	* v - append ( paste ) buffer to selected container
+	* shift + v - paste buffer before selected container
+	* tab - toggle from normal view of containers to another view mode where ( in most of the cases ) you can see clearly the arrangement of the containers in the template
+	* up arrow or w - selection goes one level up in html dom ( from currently selected container stand point )
+	* down arrow or s - if currently selected container has childrens ( which are also editable ) goes one level down selecting the first child, otherwise does nothing
+	* left arrow or a - if it is not the first child of currently selected container parent selects previous selectable child container, otherwise does nothing
+	* right arrow or d - if it is not the last child of currently selected container parent selects next selectable child container, otherwise does nothing
+	* enter or left button mouse click - confirms selection of container for the current operation ( when shift key is pressed at the same time and the action is add, it will put the new element before the selected container )
+	* middle mouse click - toggle enable/disable of mouse container selection ( useful when you want to select the container with the keyboard and don't want to incidently select other container, since mouse selection works on mouse hover )
+	* esc - cancel current operation removing all changes
 
 	in container selection ( add only ):
 
-	* **r** - activates "wrap selected container" mode ( works only on adding html element, not applicable with adding smarty statement ), note that once activated can't be disabled unless you cancel the add operation and do it again from start
+	* r - activates "wrap selected container" mode ( works only on adding html element, not applicable with adding smarty statement ), note that once activated can't be disabled unless you cancel the add operation and do it again from start
 
 	in container selection ( del only ):
 
-	* **u** - activates "unwrap selected container" mode ( works only on html element, not applicable with stmarty statement container ), once activated can be disabled only with canceling delete operation
+	* u - activates "unwrap selected container" mode ( works only on html element, not applicable with stmarty statement container ), once activated can be disabled only with canceling delete operation
 
 	after container selection ( add and edit only ):
 
-	* **tab** - goes to next editable element ( html tag add/edit only, not applicable to smarty statement ) that may be attribute name, attribute value or if it's adding the html value of the tag
-	* **shift + tab** - goes to previous editable element ( html tag add/edit only, not applicable to smarty statement )
-	* **left click attribute name or value ( when not empty )** - focus that element for edit
-	* **shift + h** - goes directly to edit html value if the selected html tag can have children ( only on html tag add )
-	* **enter** - will select currently marked auto-completion item and will replace the searched string with the selection
-	* **shift + enter** - will completely finish current operation ( when you don't want to move and click the ok button ). The only exception is when you enter smarty var name on "Fetch Vars". It's better to click the ok button or press tab to focus the ok button and then press enter
+	* tab - goes to next editable element ( html tag add/edit only, not applicable to smarty statement ) that may be attribute name, attribute value or if it's adding the html value of the tag
+	* shift + tab - goes to previous editable element ( html tag add/edit only, not applicable to smarty statement )
+	* left click attribute name or value ( when not empty ) - focus that element for edit
+	* shift + h - goes directly to edit html value if the selected html tag can have children ( only on html tag add )
+	* enter - will select currently marked auto-completion item and will replace the searched string with the selection
+	* shift + enter - will completely finish current operation ( when you don't want to move and click the ok button ). The only exception is when you enter smarty var name on "Fetch Vars". It's better to click the ok button or press tab to focus the ok button and then press enter
 
 ### Add
 
@@ -354,7 +354,7 @@ This module runs the project in current route and shows the result in iframe giv
 
 Keyboard Shortcuts:
 
-	* **shift + b** - Goes Back to Template Edit
+	* shift + b - Goes Back to Template Edit
 
 ### Back 
 
