@@ -1,17 +1,6 @@
 Boostrap3-Smarty-Chrome-Browser-Based-Node.JS-Web-App-Designer ( BSCNWAD ) Documentation
 ========================================================================================
 
-Table of Contents
------------------
-
-[Install](#install)
-[Introduction](#introduction)
-[Projects](#projects)
-[Routes](#routes)
-[Templates](#templates)
-[Template Edit](#template_edit)
-[Project Preview](#project_preview)
-
 Dependencies
 ------------
 
