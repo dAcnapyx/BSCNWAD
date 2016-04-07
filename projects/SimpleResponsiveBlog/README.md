@@ -6,8 +6,8 @@ This is a demo project representing almost finished responsive blog application
 Dependencies
 ------------
 
-	* [nodejs][].
-	* [mysql][].
+	* Node.JS
+	* MySQL
 
 Installation
 ------------
@@ -42,6 +42,4 @@ License
 
 Licensed under the MIT license. See [LICENSE][] for more details.
 
-[nodejs]: https://nodejs.org/en/
-[mysql]: https://www.mysql.com/
 [LICENSE]: https://github.com/dAcnapyx/BSCNWAD/blob/master/projects/SimpleResponsiveBlog/LICENSE "LICENSE"
